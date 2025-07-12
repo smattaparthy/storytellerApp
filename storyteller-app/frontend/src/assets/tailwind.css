@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom global styles or component styles here if needed */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Consider a child-friendly default background if not using full-page component backgrounds */
+  /* background-color: #f0f4f8; */
+}
+
+/* Example of a custom utility or component style */
+/* .btn-primary {
+  @apply py-2 px-4 bg-primary-purple text-white font-semibold rounded-lg shadow-md hover:bg-primary-pink focus:outline-none focus:ring-2 focus:ring-opacity-75;
+} */

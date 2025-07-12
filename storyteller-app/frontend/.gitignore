@@ -1,0 +1,51 @@
+# Node.js and npm
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Vite
+dist/
+.vite/
+*.vite.*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env*.local
+.env.*.local
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist
+dist-ssr
+out
+
+# Optional: Lockfiles (if you prefer not to commit them, though often recommended)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
