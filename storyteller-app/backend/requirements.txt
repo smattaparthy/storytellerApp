@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+aiosqlite
+pydantic-settings
+python-dotenv # For .env file loading, though pydantic-settings can also handle it.
+google-generativeai # For Google Gemini API
+google-cloud-aiplatform # For Google Imagen API (via Vertex AI)
+httpx # For making async HTTP requests, potentially used by Google SDKs or directly.
+
+# Testing dependencies
+pytest
+pytest-asyncio
+
+# Add other dependencies as needed, for example:
+# alembic # For database migrations (recommended for production)
